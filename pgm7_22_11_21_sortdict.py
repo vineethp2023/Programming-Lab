@@ -1,0 +1,11 @@
+dict1={"p1":10,"p3":18,"p8":27,"p4":6,"p2":13,"p11":77}
+l=list(dict1.items())
+print("\n the dictionary is: \n")
+print(dict1)
+l.sort()
+print("\n the dictionary in ascending order of their values is\n")
+print(l)
+l=list(dict1.items())
+l.sort(reverse="True")
+print("\n the dictionary in descending order of their values is\n")
+print(l)
